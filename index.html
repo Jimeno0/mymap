@@ -7,6 +7,25 @@
     	<link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
       <link href='main.CSS' rel='stylesheet' type='text/css'>
 		<script src="https://js.arcgis.com/3.15/"></script>
+    <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="index.js"></script>
+    <script>
+    'use strict';
+    var dojoConfig = (function () {
+        return {
+            async: true,
+            isDebug: true,
+            parseOnLoad: false,
+            packages: [
+                {
+                    name: 'jquery',
+                    location: 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1',
+                    main: 'jquery'
+                }
+            ]
+        };
+    })();
+    </script>
 		<script>
   			var map;
 			require(["esri/map", "dojo/domReady!"], function(Map) {
@@ -17,6 +36,7 @@
   			});
 		});
 		</script>
+   
 		<title>My first map</title>
   </head>
 	<body class="claro">
