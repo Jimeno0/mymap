@@ -1,19 +1,5 @@
 'use strict'
 
-/*var zoomMad = $('#btnMad');
-zoomMad.click(function(){
-	map.centerAndZoom([-3.688510, 40.453010],10);
-})
-
-
-var Mad = document.ggetElementById('btnMad');
-Mad.addEventListener('click', function(){
-	map.centerAndZoom([-3.688510, 40.453010],10);
-}
-*/
-
-
-
 var Mad = document.getElementById('btnMad');
 Mad.addEventListener('click',function(){
 
@@ -36,6 +22,14 @@ map.centerAndZoom([-3.688510, 40.453010],5);
  })
 
 
+var Riv = document.getElementById('btnRiv');
+Riv.addEventListener('click',function(){
 
+map.centerAndZoom([-3.688510, 40.453010],5);
+  var delay = 1000;
 
-//map.centerAndZoom([2.154007, 41.390205],10);})
+ 
+  setTimeout(function(){
+  map.centerAndZoom([-3.529895, 40.371853],16);
+     }, delay);
+ })

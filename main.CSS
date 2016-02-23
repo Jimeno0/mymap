@@ -6,3 +6,28 @@ html, body, #mapDiv {
       width: 100%;
  }
 
+#btnMad {
+	position:absolute;
+	right:240px;
+	top:10px;
+	z-Index:999;
+}
+	
+
+
+#btnBcn {
+	position:absolute;
+	right:130px;
+	top:10px;
+	z-Index:999;
+}
+
+#btnRiv {
+position:absolute;
+	right:60px;
+	top:10px;
+	z-Index:999;
+}
+
+
+
