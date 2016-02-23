@@ -3,12 +3,13 @@
   <head>
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      
     	<link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <link href='main.CSS' rel='stylesheet' type='text/css'>
 		<script src="https://js.arcgis.com/3.15/"></script>
     <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" src="index.js"></script>
+    
     <script>
     'use strict';
     var dojoConfig = (function () {
@@ -45,14 +46,14 @@
 		</div>
     <div id = "HeadBtns">
       
-        <button id="btnMad">Madrid</button>
-        <button id="btnBcn">Barcelona</button>
+        <button id="btnMad" class="btn btn-default">Madrid</button>
+        <button id="btnBcn" class="btn btn-default">Barcelona</button>
       	<br>
       	<hr>
       	<br>
     </div>
   		<div id="mapDiv"></div>
 	</body>
-	
+	<script type="text/javascript" charset="utf-8" src="index.js"></script>
 
 </html>
