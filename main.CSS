@@ -29,5 +29,19 @@ position:absolute;
 	z-Index:999;
 }
 
+.dropdown {
+  position:absolute;
+  right:320px;
+  top:10px;
+  z-Index:999;
+  background-color: white;
+}
+  
+.btn-primary{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+
+}
 
 
